@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    font-family: 'Source Serif Pro', serif;
+    
+}
+
+.category{
+    width: 15%;
+    height: 100vh;
+    position: fixed;
+}
+
+.category > .logo{
+    margin: 40px;
+}
+
+.category > .logo > img{
+    width: 90px;
+}
+
+.category > ul {
+    list-style-type: none;
+}
+
+.category > ul >.bold {
+    font-weight: bold;
+}
+
+.category > ul > li {
+    margin: 20px;
+    font-size: larger;
+}
+
+.category > .more{
+    position: absolute;
+    bottom: 0px;
+    margin: 20px;
+    font-size: larger;
+}
+
+.bx{
+    
+    margin-right: 10px;
+}
+
+.content{
+    margin: 10px auto 10px;
+    
+}
+
+.content > .content-1{
+    
+    width: 500px;
+    
+    border-radius: 5px ;
+    border: 1px solid #1c1e;
+    margin-top: 10px;
+}
+
+.content > .content-1> .container{
+    display: flex;
+    border-bottom: 1px solid#1c1e;
+}
+
+.content > .content-1> .container >.content-avatar > img{
+    border-radius: 50%;
+    width: 35px;
+    border: 2px solid #1c1e;
+    margin: 15px;
+}
+
+.content > .content-1> .container >.content-name{
+    
+    margin:25px 10px 0px 5px;
+}
+
+.content > .content-1> .container >.content-option{
+    
+    margin:20px 10px 0px 270px;
+}
+
+.container-2 > img{
+    width:100%;
+    
+    overflow: hidden;
+    
+}
+
+
+
+
+.content > .content-option{
+    display: inline-block;
+}
+
+.input{
+    display: flex;
+}
+
+input{
+    outline: none;
+    border: none;
+}
+
+.input > img{
+    width: 30px;
+    height: 100%;
+    position: relative;
+    top:10px;
+    margin-left: 10px;
+    margin-right:5px ;
+}
+
+.input > p{
+    color:aquamarine;
+    margin: 14px 0px 14px 230px;
+}
+
+.action > .bx{
+    font-size: larger;
+    margin: 10px;
+}
+
+.like{
+    margin: 12px;
+}
+
+.suggest{
+    position: fixed;
+    right: 0;
+    
+}
+
+.sg{
+    display: flex;
+}
+
+.sg > .usn{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 300px;
+}
