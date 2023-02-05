@@ -132,8 +132,8 @@ input{
 
 .suggest{
     position: fixed;
-    right: 0;
-    
+    top:30px;
+    right: -50px;
 }
 
 .sg{
